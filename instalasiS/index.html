@@ -12,7 +12,7 @@
         <link rel="prev" href="../setup/">
       
       
-        <link rel="next" href="../instalasiH/">
+        <link rel="next" href="../instalasiVision/">
       
       
       <link rel="icon" href="../assets/F1Maskot.png">
@@ -334,24 +334,6 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
-  <a href="#penginstalan-operating-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penginstalan Operating System
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#penginstalan-microsoft-visual-studio-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penginstalan Microsoft Visual Studio Code
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
   <a href="#penginstalan-dynamixel-sdk" class="md-nav__link">
     <span class="md-ellipsis">
       Penginstalan Dynamixel SDK
@@ -494,11 +476,11 @@
   
   
     <li class="md-nav__item">
-      <a href="../instalasiH/" class="md-nav__link">
+      <a href="../instalasiVision/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
-    Instalasi Hardware
+    Object Detection
   </span>
   
 
@@ -542,24 +524,6 @@
   
     <nav class="md-nav" aria-label="Penginstalan Software Motion">
       <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#penginstalan-operating-system" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penginstalan Operating System
-    </span>
-  </a>
-  
-</li>
-        
-          <li class="md-nav__item">
-  <a href="#penginstalan-microsoft-visual-studio-code" class="md-nav__link">
-    <span class="md-ellipsis">
-      Penginstalan Microsoft Visual Studio Code
-    </span>
-  </a>
-  
-</li>
         
           <li class="md-nav__item">
   <a href="#penginstalan-dynamixel-sdk" class="md-nav__link">
@@ -706,26 +670,10 @@
 
 <h1 id="instalasi-software-robot-hexapod"><strong>Instalasi Software Robot Hexapod</strong></h1>
 <h2 id="penginstalan-software-motion"><strong>Penginstalan Software Motion</strong></h2>
-<h3 id="penginstalan-operating-system"><strong>Penginstalan Operating System</strong></h3>
-<p>Untuk dapat mngoperasikan sistem-sistem yang akan digunakan pada robot Hexapod ini, langkah pertama yang harus dilakukan adalah menginstall operating system yang sesuai agar kita dapat memulai pemrograman, Operating System yang digunakan adalah <a href="https://releases.ubuntu.com/18.04/">Ubuntu V18.04</a>.
-<br></p>
-<h3 id="penginstalan-microsoft-visual-studio-code"><strong>Penginstalan Microsoft Visual Studio Code</strong></h3>
-<p>Microsoft Visual Studio Code akan sangat membantu kita dalam pembuatan banyaknya program-program yang akan digunakan pada robot Hexapod nanti. Untuk penginstalan VSC itu sendiri dapat dilakukan dengan mengunjungi website official <a href="https://code.visualstudio.com/download">Visual Studio Code</a> setelah itu memilih bagian penginstalan Linux <em>.deb</em> seperti pada gambar dibawah ini.</p>
-<figure>
-    <img alt="Ubuntu Download Tutorial Pic" src="../assets/tutorialpic/pic1.png" width="350" />
-</figure>
-<p>Setelah itu melakukan penginstalan dengan memasukkan perintah berikut ini:</p>
-<div class="language-css highlight"><span class="filename">Perintah Instalasi</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="nt">sudo</span><span class="w"> </span><span class="nt">dpkg</span><span class="w"> </span><span class="nt">-i</span><span class="w"> </span><span class="o">[</span><span class="nt">direktori</span><span class="w"> </span><span class="nt">file</span><span class="o">]</span>
-</span></code></pre></div>
-<div class="admonition note">
-<p class="admonition-title">Note</p>
-<p>Untuk opsi <strong>.deb</strong> ini sendiri mensupport banyak format seperti x64, arm32 dan arm64. Memencet tombol <strong>.deb</strong> utama di pojok kiri atas gambar maka installer akan otomatis menginstall sesuai dengan format device.</p>
-</div>
-<p><br></p>
 <h3 id="penginstalan-dynamixel-sdk"><strong>Penginstalan Dynamixel SDK</strong></h3>
 <p>Dynamixel SDK adalah software pengembangan yang menyediakan fungsi kendali menggunakan packet communication. API dari Dynamixel DK itu sendiri di desain untuk aktuator Dynamixel dan semua platform berbasis Dynamixel. Untuk penggunaan software ini diperlukan pemahaman dasar tentang bahasa pemrograman C/C++.</p>
 <p>Untuk memulai langkah penginstalan dapat dilakukan dengan cara memasukkan perintah berikut kedalam terminal program:
-<div class="language-css highlight"><span class="filename">Perintah Penginstalan Dynamixel SDK</span><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">clone</span><span class="w"> </span><span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">ROBOTIS-GIT</span><span class="o">/</span><span class="nt">DynamixelSDK</span><span class="p">.</span><span class="nc">git</span>
+<div class="language-css highlight"><span class="filename">Perintah Penginstalan Dynamixel SDK</span><pre><span></span><code><span id="__span-0-1"><a id="__codelineno-0-1" name="__codelineno-0-1" href="#__codelineno-0-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">clone</span><span class="w"> </span><span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">ROBOTIS-GIT</span><span class="o">/</span><span class="nt">DynamixelSDK</span><span class="p">.</span><span class="nc">git</span>
 </span></code></pre></div>
 Atau dapat dilakukan juga dengan langsung menekan tombol link yang tertera pada bagian Download-Repository di website <a href="https://emanual.robotis.com/docs/en/software/dynamixel/dynamixel_sdk/download/#repository">Dynamixel SDK</a> dan Setelah itu kita akan memasuki tahap Library Setup.
 <br></p>
@@ -734,17 +682,17 @@ Atau dapat dilakukan juga dengan langsung menekan tombol link yang tertera pada 
 <ul>
 <li>GNU gcc versi <strong>5.4.0 20160609</strong> atau lebih tinggi</li>
 <li>Untuk memeriksa versi compiler gcc, dapat dilakukan menggunakan perintah ini:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">gcc</span><span class="w"> </span><span class="nt">-v</span><span class="w"> </span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-1-1"><a id="__codelineno-1-1" name="__codelineno-1-1" href="#__codelineno-1-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">gcc</span><span class="w"> </span><span class="nt">-v</span><span class="w"> </span>
 </span></code></pre></div></li>
 <li>Download compiler yang dibutuhkan dengan perintah ini:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">gcc-5</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-2-1"><a id="__codelineno-2-1" name="__codelineno-2-1" href="#__codelineno-2-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">gcc-5</span>
 </span></code></pre></div>
 <br></li>
 </ul>
 <h5 id="2builder">2.Builder</h5>
 <ul>
 <li>Dapatkan pkg yang diperlukan untuk Build menggunakan → make. Perintah yang dijalankan adalah:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">build-essential</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-3-1"><a id="__codelineno-3-1" name="__codelineno-3-1" href="#__codelineno-3-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">build-essential</span>
 </span></code></pre></div>
 <br></li>
 </ul>
@@ -762,7 +710,7 @@ Sumber contoh yang akan dibuat adalah dalam bentuk 32bit, oleh karena itu librar
 <p><br></p>
 <ul>
 <li>lalu pergi ke direktori Makefile SBC yang seharusnya terletak di: <br> <code>[DynamixelSDK folder]/cpp/build/linux_sbc</code> <br> menggunakan perintah:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-4-1"><a id="__codelineno-4-1" name="__codelineno-4-1" href="#__codelineno-4-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
 </span></code></pre></div></li>
 </ul>
 <figure>
@@ -771,7 +719,7 @@ Sumber contoh yang akan dibuat adalah dalam bentuk 32bit, oleh karena itu librar
 <p><br></p>
 <ul>
 <li>Untuk memasukkan Library ke Root Directory (Untuk menghandle serial port) menggunakan perintah:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">make</span><span class="w"> </span><span class="nt">install</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-5-1"><a id="__codelineno-5-1" name="__codelineno-5-1" href="#__codelineno-5-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">make</span><span class="w"> </span><span class="nt">install</span>
 </span></code></pre></div></li>
 </ul>
 <figure>
@@ -802,7 +750,7 @@ atau
 <li>Lalu pada terminal, pergi ke folder MakeFile:
 <br><code>/c++/example/protocol1.0/read_write/linux32</code><br>
 sebagai contoh, membuat file executable menggunakan command ini:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-6-1"><a id="__codelineno-6-1" name="__codelineno-6-1" href="#__codelineno-6-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
 </span></code></pre></div></li>
 </ul>
 <figure>
@@ -816,7 +764,7 @@ sebagai contoh, membuat file executable menggunakan command ini:
 <p><br></p>
 <ul>
 <li>Setelah itu masukkan command ini agar port dapat digunakan:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">chmod</span><span class="w"> </span><span class="nt">a</span><span class="o">+</span><span class="nt">rw</span><span class="w"> </span><span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">ttyUSB0</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-7-1"><a id="__codelineno-7-1" name="__codelineno-7-1" href="#__codelineno-7-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">chmod</span><span class="w"> </span><span class="nt">a</span><span class="o">+</span><span class="nt">rw</span><span class="w"> </span><span class="o">/</span><span class="nt">dev</span><span class="o">/</span><span class="nt">ttyUSB0</span>
 </span></code></pre></div></li>
 </ul>
 <figure>
@@ -825,7 +773,7 @@ sebagai contoh, membuat file executable menggunakan command ini:
 <p><br></p>
 <ul>
 <li>Setelah semuanya berfungsi dengan baik, kita akhirnya dapat menjalankan source code menggunakan command ini:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="o">$</span><span class="w"> </span><span class="o">./</span><span class="nt">read_write</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-8-1"><a id="__codelineno-8-1" name="__codelineno-8-1" href="#__codelineno-8-1"></a><span class="o">$</span><span class="w"> </span><span class="o">./</span><span class="nt">read_write</span>
 </span></code></pre></div></li>
 </ul>
 <figure>
@@ -842,46 +790,46 @@ sebagai contoh, membuat file executable menggunakan command ini:
 <p><br></p>
 <h4 id="memperbarui-ubuntu-dan-git-cmake"><strong>Memperbarui Ubuntu dan Git Cmake</strong></h4>
 <p>Hal pertama yang harus dilakukan adalah update ubuntu dengan source code berikut: <br />
-<div class="language-css highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">update</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-9-1"><a id="__codelineno-9-1" name="__codelineno-9-1" href="#__codelineno-9-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">update</span>
 </span></code></pre></div>
 Setelah itu install git cmake dengan source code berikut:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">cmake</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-10-1"><a id="__codelineno-10-1" name="__codelineno-10-1" href="#__codelineno-10-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">cmake</span>
 </span></code></pre></div></p>
 <h4 id="menduplicate-library-jetson"><strong>Menduplicate Library Jetson</strong></h4>
 <p>Lalu duplikat library jetson inference dengan source code berikut: 
-<div class="language-css highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">clone</span><span class="w"> </span><span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">dusty-nv</span><span class="o">/</span><span class="nt">jetson-inference</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-11-1"><a id="__codelineno-11-1" name="__codelineno-11-1" href="#__codelineno-11-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">clone</span><span class="w"> </span><span class="nt">https</span><span class="o">://</span><span class="nt">github</span><span class="p">.</span><span class="nc">com</span><span class="o">/</span><span class="nt">dusty-nv</span><span class="o">/</span><span class="nt">jetson-inference</span>
 </span></code></pre></div>
 Setelah di duplikat masuk kedalam jetson inference dengan source code berikut:
-<div class="language-css highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span>
-</span><span id="__span-13-2"><a id="__codelineno-13-2" name="__codelineno-13-2" href="#__codelineno-13-2"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">submodule</span><span class="w"> </span><span class="nt">update</span><span class="w"> </span><span class="nt">--init</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-12-1"><a id="__codelineno-12-1" name="__codelineno-12-1" href="#__codelineno-12-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span>
+</span><span id="__span-12-2"><a id="__codelineno-12-2" name="__codelineno-12-2" href="#__codelineno-12-2"></a><span class="o">$</span><span class="w"> </span><span class="nt">git</span><span class="w"> </span><span class="nt">submodule</span><span class="w"> </span><span class="nt">update</span><span class="w"> </span><span class="nt">--init</span>
 </span></code></pre></div></p>
 <h4 id="menginstall-libpython3"><strong>Menginstall libpython3</strong></h4>
 <p>Lalu install libpython3 dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">libpython3-dev</span><span class="w"> </span><span class="nt">python3-numpy</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-13-1"><a id="__codelineno-13-1" name="__codelineno-13-1" href="#__codelineno-13-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">apt-get</span><span class="w"> </span><span class="nt">install</span><span class="w"> </span><span class="nt">libpython3-dev</span><span class="w"> </span><span class="nt">python3-numpy</span>
 </span></code></pre></div>
 Setelah itu masuk kedalam jetson inference dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-14-1"><a id="__codelineno-14-1" name="__codelineno-14-1" href="#__codelineno-14-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span>
 </span></code></pre></div>
 Buatlah sebuah folder dengan nama build dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">mkdir</span><span class="w"> </span><span class="nt">build</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-15-1"><a id="__codelineno-15-1" name="__codelineno-15-1" href="#__codelineno-15-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">mkdir</span><span class="w"> </span><span class="nt">build</span>
 </span></code></pre></div>
 Setelah buat folder lalu masuk kedalam folder build dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">build</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-16-1"><a id="__codelineno-16-1" name="__codelineno-16-1" href="#__codelineno-16-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">build</span>
 </span></code></pre></div>
 Gunakan source code berikut untuk membuat Library: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cmake</span><span class="w"> </span><span class="o">../</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-17-1"><a id="__codelineno-17-1" name="__codelineno-17-1" href="#__codelineno-17-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cmake</span><span class="w"> </span><span class="o">../</span>
 </span></code></pre></div>
 Lalu buka build yang ada pada folder jetson inference dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span><span class="o">/</span><span class="nt">build</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-18-1"><a id="__codelineno-18-1" name="__codelineno-18-1" href="#__codelineno-18-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">cd</span><span class="w"> </span><span class="nt">jetson-inference</span><span class="o">/</span><span class="nt">build</span>
 </span></code></pre></div>
 Setelah itu compiling library dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-19-1"><a id="__codelineno-19-1" name="__codelineno-19-1" href="#__codelineno-19-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">make</span>
 </span></code></pre></div>
 Lalu install library dengan source code berikut: <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">make</span><span class="w"> </span><span class="nt">install</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-20-1"><a id="__codelineno-20-1" name="__codelineno-20-1" href="#__codelineno-20-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">make</span><span class="w"> </span><span class="nt">install</span>
 </span></code></pre></div>
 Lalu langkah terakhir penginstalan library adalah mengetik source berikut untuk menyelesaikan instalasi <br>
-<div class="language-css highlight"><pre><span></span><code><span id="__span-22-1"><a id="__codelineno-22-1" name="__codelineno-22-1" href="#__codelineno-22-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">ldconfig</span>
+<div class="language-css highlight"><pre><span></span><code><span id="__span-21-1"><a id="__codelineno-21-1" name="__codelineno-21-1" href="#__codelineno-21-1"></a><span class="o">$</span><span class="w"> </span><span class="nt">sudo</span><span class="w"> </span><span class="nt">ldconfig</span>
 </span></code></pre></div></p>
 
 
@@ -933,6 +881,8 @@ Lalu langkah terakhir penginstalan library adalah mengetik source berikut untuk 
     
     
       <script src="../assets/javascripts/bundle.83f73b43.min.js"></script>
+      
+        <script src="../assets/auth.js"></script>
       
     
   </body>
