@@ -40,6 +40,6 @@ If you are curious on how we create our hexapod robot or maybe you want to make 
 #### Don't forget to also follow our social media to find more awesome stuffs
 
 [![Follow on Instagram](https://img.shields.io/badge/Instagram-Follow%20Us-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/barelangf1/)
-[![Visit Our GitHub](https://img.shields.io/badge/GitHub-Check%20Our%20Code-FFA500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Barelang-F1/barelangf1-setup)
+[![Visit Our GitHub](https://img.shields.io/badge/GitHub-Our%20Sauce-FFA500?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Barelang-F1/barelangf1-setup)
 
 </div>
